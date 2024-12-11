@@ -1,6 +1,6 @@
 # Create databases
 CREATE DATABASE IF NOT EXISTS `fiserv`;
-CREATE DATABASE IF NOT EXISTS `fiserv_testing`;
+#CREATE DATABASE IF NOT EXISTS `fiserv_testing`;
 
 # Create user
 CREATE USER 'fiserv'@'localhost' IDENTIFIED BY 'fiserv';
