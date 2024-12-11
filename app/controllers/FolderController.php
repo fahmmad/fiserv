@@ -18,8 +18,7 @@ class FolderController
         $results = [];
 
         try {
-            $item = new Item($this->connection);
-            $items = $item->all();
+            $items = $item->all(new Item($this->connection));
             $current = null;
             
             while($next = next($items)) {
@@ -71,7 +70,6 @@ class FolderController
             $tree[$count] = $value;
             $parent = 0;
             if($count > 0) {
-                // echo "$value => count:$count, parent name: " . $tree[$count-1] . "<br/>";
                 $filter = " WHERE type LIKE 'folder' AND name like '" . $tree[$count-1] . "'";
                 $result = $modelItem->search($filter);
                 if($result) {
