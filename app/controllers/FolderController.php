@@ -18,7 +18,7 @@ class FolderController
         $results = [];
 
         try {
-            $items = $item->all(new Item($this->connection));
+            $items = new Item($this->connection)->all();
             $current = null;
             
             while($next = next($items)) {
