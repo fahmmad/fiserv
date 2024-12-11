@@ -25,5 +25,5 @@ services:
       - --log-error-verbosity=3
     environment:
       MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
-      # Use the `DB_DATABASE` from the .env file if it set and not empty, or default to `laravel`
+      # Use the `DB_DATABASE` from the .env file if it set
       MYSQL_DATABASE: ${DB_DATABASE}

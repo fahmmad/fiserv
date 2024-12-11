@@ -3,8 +3,8 @@ CREATE DATABASE IF NOT EXISTS `fiserv`;
 #CREATE DATABASE IF NOT EXISTS `fiserv_testing`;
 
 # Create user
-CREATE USER 'fiserv'@'localhost' IDENTIFIED BY 'fiserv';
-GRANT ALL PRIVILEGES ON *.* TO 'fiserv'@'%';
+CREATE USER 'root'@'localhost' IDENTIFIED BY 'root';
+GRANT ALL PRIVILEGES ON *.* TO 'root'@'%';
 
 # Create Tables
 Use `fiserv`;
