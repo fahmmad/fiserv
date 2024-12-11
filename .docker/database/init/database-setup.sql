@@ -1,13 +1,10 @@
 # Create databases
 CREATE DATABASE IF NOT EXISTS `fiserv`;
-CREATE DATABASE IF NOT EXISTS `fiserv_testing`;
+#CREATE DATABASE IF NOT EXISTS `fiserv_testing`;
 
 # Create user
-# DROP USER fiserv@localhost;
-# FLUSH PRIVILEGES;
-
-#CREATE USER 'fiserv'@'localhost' IDENTIFIED BY 'fiserv';
-#GRANT ALL PRIVILEGES ON *.* TO 'fiserv'@'%';
+CREATE USER 'fiserv'@'localhost' IDENTIFIED BY 'fiserv';
+GRANT ALL PRIVILEGES ON *.* TO 'fiserv'@'%';
 
 # Create Tables
 Use `fiserv`;
