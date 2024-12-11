@@ -5,6 +5,7 @@
 
 ## Setup
 - Clone the repository
+- Cope .env.example to .env
 - ```docker compose up -d```
 - try http://localhost:8000
 
