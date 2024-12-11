@@ -1,0 +1,17 @@
+Documents
+    Images
+        mage1.jpg
+		mage2.jpg
+		mage3.jpg
+ 	Works
+ 	    Letter.doc
+ 	    Accountant
+ 	        Accounting.xls
+ 	        AnnualReport.xls
+Program Files
+    Skype
+        Skype.exe
+        Readme.txt
+    Mysql
+        Mysql.exe
+        Mysql.com
